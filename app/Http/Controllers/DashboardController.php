@@ -51,6 +51,10 @@ public function community()
     return view('dashboard.community');
 }
 
+public function profile()
+{
+    return view('dashboard.profile');
+}
 
 
 
