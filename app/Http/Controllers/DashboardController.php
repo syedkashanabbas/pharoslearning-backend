@@ -42,6 +42,11 @@ public function performance()
 {
     return view('dashboard.performance');
 }
+public function announcements()
+{
+    return view('dashboard.announcements');
+}
+
 
 
 
