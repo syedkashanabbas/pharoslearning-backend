@@ -19,6 +19,7 @@ Route::middleware([
     Route::get('/my-courses', [DashboardController::class, 'myCourses'])->name('dashboard.myCourses');
     Route::get('/learning-path', [DashboardController::class, 'learningPath'])->name('dashboard.learningPath');
     Route::get('/assignments', [DashboardController::class, 'assignments'])->name('dashboard.assignments');
+    Route::get('/certificates', [DashboardController::class, 'certificates'])->name('dashboard.certificates');
 
 
 

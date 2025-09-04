@@ -30,4 +30,9 @@ public function assignments()
     return view('dashboard.assignments');
 }
 
+public function certificates()
+{
+    return view('dashboard.certificates');
+}
+
 }
