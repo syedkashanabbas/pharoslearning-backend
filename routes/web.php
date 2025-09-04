@@ -21,7 +21,7 @@ Route::middleware([
     Route::get('/assignments', [DashboardController::class, 'assignments'])->name('dashboard.assignments');
     Route::get('/certificates', [DashboardController::class, 'certificates'])->name('dashboard.certificates');
     Route::get('/resources', [DashboardController::class, 'resources'])->name('dashboard.resources');
-
+    Route::get('/performance', [DashboardController::class, 'performance'])->name('dashboard.performance');
 
 
 

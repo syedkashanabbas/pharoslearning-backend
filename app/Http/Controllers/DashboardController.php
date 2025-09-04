@@ -38,6 +38,11 @@ public function resources()
 {
     return view('dashboard.resources');
 }
+public function performance()
+{
+    return view('dashboard.performance');
+}
+
 
 
 }
