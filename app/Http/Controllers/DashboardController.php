@@ -34,5 +34,10 @@ public function certificates()
 {
     return view('dashboard.certificates');
 }
+public function resources()
+{
+    return view('dashboard.resources');
+}
+
 
 }
