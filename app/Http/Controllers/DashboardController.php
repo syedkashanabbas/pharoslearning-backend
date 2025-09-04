@@ -46,6 +46,10 @@ public function announcements()
 {
     return view('dashboard.announcements');
 }
+public function community()
+{
+    return view('dashboard.community');
+}
 
 
 

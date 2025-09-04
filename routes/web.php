@@ -23,6 +23,7 @@ Route::middleware([
     Route::get('/resources', [DashboardController::class, 'resources'])->name('dashboard.resources');
     Route::get('/performance', [DashboardController::class, 'performance'])->name('dashboard.performance');
     Route::get('/announcements', [DashboardController::class, 'announcements'])->name('dashboard.announcements');
+    Route::get('/community', [DashboardController::class, 'community'])->name('dashboard.community');
 
 
 
