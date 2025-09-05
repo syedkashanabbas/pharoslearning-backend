@@ -29,69 +29,69 @@
                 </a>
             </li>
 
-            <li class="sidebar_item">
-                <a href="#" 
-                   class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.learningPath') ? 'active' : '' }}">
-                    <span class="sidebar_link_icon"><i class="fas fa-road"></i></span>
-                    <span class="sidebar_link_text fs_7 fw-medium">Learning Path</span>
-                </a>
-            </li>
+         <li class="sidebar_item">
+    <a href="{{ route('dashboard.learningPath') }}" 
+       class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.learningPath') ? 'active' : '' }}">
+        <span class="sidebar_link_icon"><i class="fas fa-road"></i></span>
+        <span class="sidebar_link_text fs_7 fw-medium">Learning Path</span>
+    </a>
+</li>
 
-            <li class="sidebar_item">
-                <a href="#" 
-                   class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.assignments') ? 'active' : '' }}">
-                    <span class="sidebar_link_icon"><i class="fas fa-tasks"></i></span>
-                    <span class="sidebar_link_text fs_7 fw-medium">Assignments & Quizzes</span>
-                </a>
-            </li>
+<li class="sidebar_item">
+    <a href="{{ route('dashboard.assignments') }}" 
+       class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.assignments') ? 'active' : '' }}">
+        <span class="sidebar_link_icon"><i class="fas fa-tasks"></i></span>
+        <span class="sidebar_link_text fs_7 fw-medium">Assignments & Quizzes</span>
+    </a>
+</li>
 
-            <li class="sidebar_item">
-                <a href="#" 
-                   class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.certificates') ? 'active' : '' }}">
-                    <span class="sidebar_link_icon"><i class="fas fa-certificate"></i></span>
-                    <span class="sidebar_link_text fs_7 fw-medium">Certificates</span>
-                </a>
-            </li>
+<li class="sidebar_item">
+    <a href="{{ route('dashboard.certificates') }}" 
+       class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.certificates') ? 'active' : '' }}">
+        <span class="sidebar_link_icon"><i class="fas fa-certificate"></i></span>
+        <span class="sidebar_link_text fs_7 fw-medium">Certificates</span>
+    </a>
+</li>
 
-            <li class="sidebar_item">
-                <a href="#" 
-                   class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.resources') ? 'active' : '' }}">
-                    <span class="sidebar_link_icon"><i class="fas fa-folder-open"></i></span>
-                    <span class="sidebar_link_text fs_7 fw-medium">Resources</span>
-                </a>
-            </li>
+<li class="sidebar_item">
+    <a href="{{ route('dashboard.resources') }}" 
+       class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.resources') ? 'active' : '' }}">
+        <span class="sidebar_link_icon"><i class="fas fa-folder-open"></i></span>
+        <span class="sidebar_link_text fs_7 fw-medium">Resources</span>
+    </a>
+</li>
 
-            <li class="sidebar_item">
-                <a href="#" 
-                   class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.performance') ? 'active' : '' }}">
-                    <span class="sidebar_link_icon"><i class="fas fa-chart-bar"></i></span>
-                    <span class="sidebar_link_text fs_7 fw-medium">Performance</span>
-                </a>
-            </li>
+<li class="sidebar_item">
+    <a href="{{ route('dashboard.performance') }}" 
+       class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.performance') ? 'active' : '' }}">
+        <span class="sidebar_link_icon"><i class="fas fa-chart-bar"></i></span>
+        <span class="sidebar_link_text fs_7 fw-medium">Performance</span>
+    </a>
+</li>
 
-            <li class="sidebar_item">
-                <a href="#" 
-                   class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.announcements') ? 'active' : '' }}">
-                    <span class="sidebar_link_icon"><i class="fas fa-bullhorn"></i></span>
-                    <span class="sidebar_link_text fs_7 fw-medium">Announcements</span>
-                </a>
-            </li>
+<li class="sidebar_item">
+    <a href="{{ route('dashboard.announcements') }}" 
+       class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.announcements') ? 'active' : '' }}">
+        <span class="sidebar_link_icon"><i class="fas fa-bullhorn"></i></span>
+        <span class="sidebar_link_text fs_7 fw-medium">Announcements</span>
+    </a>
+</li>
 
-            <li class="sidebar_item">
-                <a href="#" 
-                   class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.community') ? 'active' : '' }}">
-                    <span class="sidebar_link_icon"><i class="fas fa-users"></i></span>
-                    <span class="sidebar_link_text fs_7 fw-medium">Community</span>
-                </a>
-            </li>
+<li class="sidebar_item">
+    <a href="{{ route('dashboard.community') }}" 
+       class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.community') ? 'active' : '' }}">
+        <span class="sidebar_link_icon"><i class="fas fa-users"></i></span>
+        <span class="sidebar_link_text fs_7 fw-medium">Community</span>
+    </a>
+</li>
 
-            <li class="sidebar_item">
-                <a href="#" 
-                   class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.profile') ? 'active' : '' }}">
-                    <span class="sidebar_link_icon"><i class="fas fa-user"></i></span>
-                    <span class="sidebar_link_text fs_7 fw-medium">Profile & Settings</span>
-                </a>
-            </li>
+<li class="sidebar_item">
+    <a href="{{ route('dashboard.profile') }}" 
+       class="sidebar_link d-flex align-items-center text-decoration-none {{ request()->routeIs('dashboard.profile') ? 'active' : '' }}">
+        <span class="sidebar_link_icon"><i class="fas fa-user"></i></span>
+        <span class="sidebar_link_text fs_7 fw-medium">Profile & Settings</span>
+    </a>
+</li>
 
         </ul>
     </section>
